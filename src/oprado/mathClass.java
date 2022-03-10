@@ -9,10 +9,10 @@ package oprado;
  */
 public class mathClass {
     public static void main(String[] args) {
-       float num = 4.56f;
-       int result = Math.round(num);
+      
+        double num = Math.random();
         
-        System.out.println(result);
+        System.out.println(num);
         
     }
     
