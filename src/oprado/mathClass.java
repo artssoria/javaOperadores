@@ -9,9 +9,10 @@ package oprado;
  */
 public class mathClass {
     public static void main(String[] args) {
-        double  raiz = Math.sqrt(9);
+       double base = 4, expo = 3;
+       double result = Math.pow(base, expo);
         
-        System.out.println(raiz);
+        System.out.println(result);
         
     }
     
