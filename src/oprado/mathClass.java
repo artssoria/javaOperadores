@@ -9,8 +9,8 @@ package oprado;
  */
 public class mathClass {
     public static void main(String[] args) {
-       double base = 4, expo = 3;
-       double result = Math.pow(base, expo);
+       float num = 4.56f;
+       int result = Math.round(num);
         
         System.out.println(result);
         
