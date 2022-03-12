@@ -20,6 +20,7 @@ public class ejercicioCondicionales1 {
             
         }else{
             JOptionPane.showMessageDialog(null, "el numero no es multiplo de 10");
+          
         }
     }
 }
