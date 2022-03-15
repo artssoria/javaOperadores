@@ -14,17 +14,18 @@ import javax.swing.JOptionPane;
  * @author arturo
  */
 public class ejercicioCondicionales5 {
+
     public static void main(String[] args) {
         int horasTrabajadas;
         float salarioTotal;
-        horasTrabajadas  = Integer.parseInt(JOptionPane.showInputDialog("Digite las horas trabajadas"));
+        horasTrabajadas = Integer.parseInt(JOptionPane.showInputDialog("Digite las horas trabajadas"));
         if (horasTrabajadas <= 40) {
             salarioTotal = horasTrabajadas * 16;
-            
-        }else{
-            salarioTotal = (40*16) + ((horasTrabajadas-40) * 20);
-            
+
+        } else {
+            salarioTotal = (40 * 16) + ((horasTrabajadas - 40) * 20);
+
         }
-        JOptionPane.showMessageDialog(null, "el salario total es: "+salarioTotal);
+        JOptionPane.showMessageDialog(null, "el salario total es: " + salarioTotal);
     }
 }
